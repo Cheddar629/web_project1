@@ -90,6 +90,7 @@ body {
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    padding-bottom: 30px;
 }
 
 .container2 h1 {
