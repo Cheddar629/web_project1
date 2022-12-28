@@ -12,7 +12,14 @@ body {
     align-items: center;
     flex: none;
     background-color: #1F2937;
-    height: 32px;
+    height: 50px;
+}
+
+img.logo {
+    width: 100px;
+    height: 40px;
+    margin: 90px 0px;
+    padding: 0px;
 }
 
 .header_container {
