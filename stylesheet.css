@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     height: 100vh;
     margin: 0px;
+    font-family: hero, sans-serif;
 }
 
 .header {
@@ -96,7 +97,6 @@ body {
     font-size: 36px;
     font-weight: 1500;
     color: #1F2937;
-    margin-top: 16px;
 }
 
 .container2 .content {
@@ -123,10 +123,39 @@ body {
 }
 
 .container3 {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex: 1;
+    background-color: #E5E7EB;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: none;
+    width: 710px;
+    height: 300px;
+}
+
+.quote h1 {
+    margin: 0px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    
+}
+
+.quote h2 {
+    align-self: flex-end;
+    margin-top: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
 }
 
 .container4 {
