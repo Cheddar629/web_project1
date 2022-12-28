@@ -215,4 +215,17 @@ body {
     justify-content: center;
     align-items: center;
     flex: none;
+    background-color: #1F2937;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #b2b3b5;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
