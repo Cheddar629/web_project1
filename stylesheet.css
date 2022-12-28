@@ -1,34 +1,60 @@
 body {
     display: flex;
     flex-direction: column;
+    height: 100vh;
+    margin: 0px;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: none;
+    background-color: #1F2937;
+    padding: 0px 100px;
+    height: 32px;
 }
 
 .container1 {
     display: flex;
+    flex: 1;
+
 }
 
 .container2 {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .container3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1;
 }
 
 .container4 {
     display: flex;
+    flex: 1;
 }
 
 .footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: none;
 }
 
+.links {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    gap: 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: grey;
+}
